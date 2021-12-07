@@ -2,6 +2,8 @@ module github.com/jordan-cartwright/discordgo
 
 go 1.17
 
+replace github.com/bwmarrin/discordgo => github.com/jordan-cartwright/discordgo v0.24.0
+
 require (
 	github.com/bwmarrin/discordgo v0.23.2
 	github.com/gorilla/websocket v1.4.2
